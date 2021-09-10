@@ -11,10 +11,5 @@ export class Sample extends Algorithm {
 
 if (import.meta.main) {
   const a = new Sample();
-  a.match({
-    id: "sample",
-    name: "sample",
-    spec: "サンプル",
-    password: "sample-pw",
-  });
+  a.match();
 }
